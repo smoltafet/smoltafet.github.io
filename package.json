@@ -1,12 +1,12 @@
 {
   "name": "portfolio-page",
-  "homepage": "https://amoltafet.github.io/",
+  "homepage": "https://smoltafet.github.io/",
   "version": "0.1.0",
   "private": true,
   "author": {
     "name": "Ahmad Moltafet",
     "email": "moltafet.ahmad2015@gmail.com",
-    "url": "https://github.com/amoltafet"
+    "url": "https://github.com/smoltafet"
   },
   "dependencies": {
     "@emotion/react": "^11.10.6",
