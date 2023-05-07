@@ -12,3 +12,6 @@ git commit -m "message"
 git push origin main
 npm run deploy
 --
+
+# To run locally
+npm start
