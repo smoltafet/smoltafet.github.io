@@ -18,13 +18,13 @@ export default function Work() {
     },
     {
       image:
-        "https://media.licdn.com/dms/image/C4E0BAQEVZGXmk4fivg/company-logo_100_100/0/1519856250505?e=2147483647&v=beta&t=0TXFEmof3ISvKsSPf7g7WHiFpUYmMKxPZQ9vuO6q6ak",
-      title: "Computer Science Research Assistant",
-      company: "Gonzaga University",
-      date: "Feb 2023 - May 2023 [ 3 months ]",
-      description: "Researched and proposed design principles for AI chatbots that prioritize human-centered design and ethical considerations using design tools such as Figma, with the aim of improving user experience and engagement. Contributed to a study emphasizing the importance of ethical and empathetic approaches in the design of AI chatbots to improve communication and interaction with users. ",
-      location: "Spokane, Washington, United States",
-      link: "https://www.linkedin.com/company/gonzaga-university?trk=public_profile_experience-item_profile-section-card_subtitle-click",
+        "https://www.investopedia.com/thmb/yWopXC98WleAk2BKf0jgqcDUM2E=/fit-in/1500x1000/filters:format(png):fill(white):max_bytes(150000):strip_icc()/bofa_lo2_rgb_Digital-20d4dc2ee16d4412a0722dd5923c13e7.jpg",
+      title: "Student Leader",
+      company: "Bank of America",
+      date: "July 2023 - Sept 2023 [ 3 months, Internship ]",
+      description: "Selected as 1 of 300 Student Leaders out of 5000+ applicants across the United States. Drove responsible growth with Goodwill Evergreen, to deliver for clients and address pressing societal issues, including advancing employment opportunities for youth and adults. Collaborated with a team to improve user-experience while continuously driving users to the site.      ",
+      location: "Seattle, Washington, United States",
+      link: "https://about.bankofamerica.com/en/making-an-impact/student-leaders",
     },
     {
       image:
