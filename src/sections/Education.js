@@ -18,7 +18,7 @@ export default function Education() {
         <Grid item sx={{
           marginTop: "1%",
         }}>
-          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgT3J06oQWDSTEDhIhO4K5x11egkMmCLm636_x3583_MNyd2YPuvSkAYzucS6pWMs4er4&usqp=CAU" width="100px" />
+          <img src="https://www.appliedbehavioranalysisprograms.com/wp-content/uploads/2019/11/bellevue-college.png" width="100px" />
         </Grid>
         <Grid item sx={{ 
           marginLeft: "2%",
@@ -71,29 +71,21 @@ export default function Education() {
            Graduation: June 2024 <br />
         </Typography>
         </Grid>
-        <Divider sx={{ marginTop: "1%" }} />
+        <Divider sx={{ marginTop: "1%" }} />    
         <Grid container>
           <Grid item xs={12} sm={6}>
             <Typography variant="overline" color="black">
               Relevant Corsework
             </Typography>
             <Typography variant="body2" color="black">
-              This research proposes a new set of design principles for AI
-              chatbots that prioritize human-centered design and ethical
-              considerations. The study highlights existing and new design
-              principles will lead to an improved user experience, engagement,
-              satisfaction, and success of users while interacting with an AI
-              chatbot. The proposed design principles aim to assist developers
-              in creating chatbots that are more user-friendly and transparent,
-              with an ethical and empathetic approach towards their users. The
-              research proposes that AI platforms utilizing these principles
-              will result in more efficient and effective communication between
-              chatbots and users.
+            Relevant Coursework: Communication 299: Special Projects in Communication, Communication Studies 146: News Staff 
+	          Additional Involvement: Bellevue Student Paper, New Venture Lab, Barbell Club 
+
             </Typography>
           </Grid>
           <Grid item xs={12} sm={6} sx={{ textAlign: "center" }}>
             <Typography variant="overline" color="black">
-              Research Experience <br />
+              <br />
             </Typography>
             <Button
               variant="outlined"
@@ -104,7 +96,7 @@ export default function Education() {
               }
             >
               <Typography variant="caption" color="primary">
-                My Research with Dr. Olivares
+                
               </Typography>
             </Button>
           </Grid>
