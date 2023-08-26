@@ -24,18 +24,18 @@ export default function Education() {
           marginLeft: "2%",
         }}>
           <Typography variant="overline" color="black">
-            Incoming
+            Current
           </Typography>
 
           <Typography variant="h5" color="black">
-            University of Washington | Bothell
+            Bellevue College
           </Typography>
 
           <Typography variant="h6" color="black">
-            <b>Master of Computer Science and Software Engineering</b>
+            <b>Associate of Arts in Mass Media & Journalism</b>
           </Typography>
           <Typography variant="overline" color="black">
-            September 2023 - June 2025 <br />
+            Graduation: June 2024 <br />
           </Typography>
           </Grid>
       </Grid>
@@ -61,14 +61,14 @@ export default function Education() {
         </Typography>
 
         <Typography variant="h5" color="black">
-          Gonzaga University
+          Mead Senior High School
         </Typography>
 
         <Typography variant="h6" color="black">
-          <b>B.S. Computer Science</b>
+          <b>Spokane, Washington</b>
         </Typography>
         <Typography variant="overline" color="black">
-           Graduated: May 2023 <br />
+           Graduation: June 2024 <br />
         </Typography>
         </Grid>
         <Divider sx={{ marginTop: "1%" }} />

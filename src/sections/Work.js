@@ -8,14 +8,13 @@ export default function Work() {
   const data = [
     {
       image:
-        "https://upload.wikimedia.org/wikipedia/commons/thumb/3/36/University_of_Washington_Block_W_logo_RGB_brand_colors.SVG/1200px-University_of_Washington_Block_W_logo_RGB_brand_colors.SVG.png",
-      title: "Computer Science Research Assistant",
-      company: "University of Washington | Data Analysis & Intelligent Systems Research",
-      date: "Feb 2023 - Present ",
-      description:
-        "Conducting research in the field of Artificial Intelligence for Smart Health and Next Generation Biomedicine, contributing to the development of innovative AI-based solutions to improve patient outcomes and advance the field of biomedicine.  Researching both qualitative and quantitative data, analyzing large datasets using statistical and machine learning techniques to derive insights and inform decision-making processes related to healthcare and biomedicine. ",
-      location: "Bothell, Washington, United States",
-      link: "https://sites.google.com/uw.edu/dais-uw",
+        "https://www.nwnews.com/img/header-woodinville_wa.jpg" ,
+      title: "Editorial Intern",
+      company: "The Woodinville Weekly",
+      date: "Sept 2023 - Present ",
+      description: "Contributed to weekly editorial meetings focused on identifying salient issues affecting the local community and crafting persuasive arguments to inspire action or spark debate among readers. Assisted senior staff writers in conducting comprehensive research and fact-checking procedures to ensure accurate representation of facts and sources cited in published pieces. Developed original story pitches based on emerging news items or longstanding problems confronting the Woodville area, collaborating with peers to refine angles and flesh out supporting details. " ,
+      location: "Woodinville, Washington, United States",
+      link: "https://www.nwnews.com/",
     },
     {
       image:
