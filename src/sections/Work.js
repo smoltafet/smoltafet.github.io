@@ -8,7 +8,7 @@ export default function Work() {
   const data = [
     {
       image:
-        "https://www.nwnews.com/img/header-woodinville_wa.jpg" ,
+        "https://woodinvillechamber.org/wp-content/uploads/2015/09/ww.jpg" ,
       title: "Editorial Intern",
       company: "The Woodinville Weekly",
       date: "Sept 2023 - Present ",

@@ -53,7 +53,7 @@ export default function Main() {
 
           <div>
             <Typography variant="h3" color="primary">
-              Ahmad Moltafet
+              Sidiq Moltafet
             </Typography>
             <Socials />
           </div>

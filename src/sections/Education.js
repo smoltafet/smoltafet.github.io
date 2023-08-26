@@ -51,7 +51,7 @@ export default function Education() {
         <Grid item sx={{
           marginTop: "1%",
         }}>
-          <img src="https://upload.wikimedia.org/wikipedia/en/b/bd/Gonzaga_Bulldogs_logo.svg" width="100px" />
+          <img src="https://resources.finalsite.net/images/f_auto,q_auto,t_image_size_2/v1659548515/mead354org/mcb8qgzewdnxw1wubapa/2019_MHS_Academic_Logo.png" width="100px" />
         </Grid>
         <Grid item sx={{ 
           marginLeft: "2%",

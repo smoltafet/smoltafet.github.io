@@ -25,7 +25,7 @@ export default function Socials() {
           variant="outlined"
           color="primary"
           onClick={() =>
-            window.open("https://www.linkedin.com/in/ahmad-moltafet/", "_blank")
+            window.open("https://www.linkedin.com/in/sidiq-moltafet-a7655b210/", "_blank")
           }
         >
           <svg
@@ -43,7 +43,7 @@ export default function Socials() {
           aria-label="Like"
           variant="outlined"
           color="primary"
-          onClick={() => window.open("https://github.com/amoltafet", "_blank")}
+          onClick={() => window.open("https://github.com/smoltafet", "_blank")}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"

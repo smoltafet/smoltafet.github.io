@@ -21,7 +21,7 @@ export default function Home() {
     },
     {
         name: "Email",
-        link: "moltafet.ahmad2015@gmail.com",
+        link: "sidiqmoltafet@gmail.com",
         icon: <MailOutlineIcon />,
     },
 ];
@@ -50,10 +50,9 @@ export default function Home() {
                 <Avatar
                         sx={{ width: 150, height: 150, marginRight: "5%" }}
                         src="https://media.licdn.com/dms/image/D5603AQEY5P_-3hAe5g/profile-displayphoto-shrink_800_800/0/1682223262966?e=1687996800&v=beta&t=-kbYntj8QfHVOeWS16OcHkepGUhzaQ5qGNbUZ99Hf9A"
-                        alt="Ahmad Moltafet"
-                    />
+                        alt="Sidiq Moltafet"/>
                     <Typography variant="h3" color="primary">
-                        Ahmad Moltafet
+                        Sidiq Moltafet
                     </Typography>
                     <Button variant="outlined" sx={{
                         marginTop: "5%",

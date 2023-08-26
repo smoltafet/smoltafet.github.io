@@ -16,7 +16,7 @@ export default function MainCard() {
       link: "/#projects",
     },
     {
-      title: "Research",
+      title: "Volunteer Work",
       image:
         "https://images.unsplash.com/photo-1501290741922-b56c0d0884af?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2532&q=80",
       link: "/#research",
