@@ -29,25 +29,25 @@ export default function Projects() {
       languages: ["Spokesman", "Yahoo News"],
     },
     {
-      title: "Oval Real Estate",
+      title: "We the People: British Prime Minister Boris Johnson has officialy resigned!",
       description:
-        "Oval is a real estate dashboard that allows users to view and manage their properties. This project was built with React, Node, and MongoDB.",
+        "On July 7, British Prime Minister Boris Johnson announced his resignation. His fall came after more than 50 members of Parliament stepped down from their positions.        ",
       image: "People.jpeg",
-      link: "https://amoltafet.github.io/Oval/",
+      link: "https://www.spokesman.com/stories/2022/jul/31/we-the-people-a-brief-comparison-of-american-and-b/",
       lastUpdated: "2021-10-01",
-      languages: ["React", "Node", "MongoDB"],
+      languages: ["Spokesman", "Yahoo News"],
     },
     {
-      title: "Investment Club Website",
+      title: "Rep. Cathy McMorris Rodgers supports House Speaker Nancy Pelosi’s trip to Taiwan",
       description:
-        "This project was more focused on the animations rather than the functionality. It was built with React and Framer Motion.",
-      image: "investment.png",
-      link: "https://amoltafet.github.io/guic/",
+        "U.S. Rep. Cathy McMorris Rodgers voiced support on Wednesday for House Speaker Nancy Pelosi’s visit to Taiwan, amid threats from Beijing of a military response.        ",
+      image: "Pelosi.webp",
+      link: "https://www.chronline.com/stories/spokane-rep-cathy-mcmorris-rodgers-supports-house-speaker-nancy-pelosis-trip-to-taiwan,297902",
       lastUpdated: "2021-10-01",
-      languages: ["React", "Framer Motion"],
+      languages: ["Spokesman", "The Chronicle"],
     },
     {
-      title: "Rock Water",
+      title: "WOODIVILLE STORY GOES HERE ",
       description:
         "My own programming language with the following capabilities: Module System, Lexer, AST Parser, Prettify, Call Expressions.",
       image: "rock.jpeg",
@@ -56,7 +56,79 @@ export default function Projects() {
       languages: ["Python", "C++"],
     },
     {
-      itle: "Rock Water",
+      itle: "Woodivile",
+      description:
+        "My own programming language with the following capabilities: Module System, Lexer, AST Parser, Prettify, Call Expressions.",
+      image: "rock.jpeg",
+      link: "https://amoltafet.github.io/RockWater/",
+      lastUpdated: "2021-10-01",
+      languages: ["Python", "C++"],
+    },
+    {
+      itle: "Woodivile",
+      description:
+        "My own programming language with the following capabilities: Module System, Lexer, AST Parser, Prettify, Call Expressions.",
+      image: "rock.jpeg",
+      link: "https://amoltafet.github.io/RockWater/",
+      lastUpdated: "2021-10-01",
+      languages: ["Python", "C++"],
+    },
+    {
+      itle: "Woodivile",
+      description:
+        "My own programming language with the following capabilities: Module System, Lexer, AST Parser, Prettify, Call Expressions.",
+      image: "rock.jpeg",
+      link: "https://amoltafet.github.io/RockWater/",
+      lastUpdated: "2021-10-01",
+      languages: ["Python", "C++"],
+    },
+    {
+      itle: "Woodivile",
+      description:
+        "My own programming language with the following capabilities: Module System, Lexer, AST Parser, Prettify, Call Expressions.",
+      image: "rock.jpeg",
+      link: "https://amoltafet.github.io/RockWater/",
+      lastUpdated: "2021-10-01",
+      languages: ["Python", "C++"],
+    },
+    {
+      itle: "Woodivile",
+      description:
+        "My own programming language with the following capabilities: Module System, Lexer, AST Parser, Prettify, Call Expressions.",
+      image: "rock.jpeg",
+      link: "https://amoltafet.github.io/RockWater/",
+      lastUpdated: "2021-10-01",
+      languages: ["Python", "C++"],
+    },
+    {
+      itle: "Woodivile",
+      description:
+        "My own programming language with the following capabilities: Module System, Lexer, AST Parser, Prettify, Call Expressions.",
+      image: "rock.jpeg",
+      link: "https://amoltafet.github.io/RockWater/",
+      lastUpdated: "2021-10-01",
+      languages: ["Python", "C++"],
+    },
+    {
+      itle: "Woodivile",
+      description:
+        "My own programming language with the following capabilities: Module System, Lexer, AST Parser, Prettify, Call Expressions.",
+      image: "rock.jpeg",
+      link: "https://amoltafet.github.io/RockWater/",
+      lastUpdated: "2021-10-01",
+      languages: ["Python", "C++"],
+    },
+    {
+      itle: "Woodivile",
+      description:
+        "My own programming language with the following capabilities: Module System, Lexer, AST Parser, Prettify, Call Expressions.",
+      image: "rock.jpeg",
+      link: "https://amoltafet.github.io/RockWater/",
+      lastUpdated: "2021-10-01",
+      languages: ["Python", "C++"],
+    },
+    {
+      itle: "Woodivile",
       description:
         "My own programming language with the following capabilities: Module System, Lexer, AST Parser, Prettify, Call Expressions.",
       image: "rock.jpeg",
