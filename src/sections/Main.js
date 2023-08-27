@@ -47,8 +47,8 @@ export default function Main() {
         >
           <Avatar
             sx={{ width: 150, height: 150, marginRight: "5%" }}
-            src="https://media.licdn.com/dms/image/D5603AQEY5P_-3hAe5g/profile-displayphoto-shrink_800_800/0/1682223262966?e=1687996800&v=beta&t=-kbYntj8QfHVOeWS16OcHkepGUhzaQ5qGNbUZ99Hf9A"
-            alt="Ahmad Moltafet"
+            src="https://media.licdn.com/dms/image/D5603AQHdz32nDWaOQA/profile-displayphoto-shrink_400_400/0/1691612232037?e=1698278400&v=beta&t=78l2-Sm6aw33SwGHmkUB9FHHNRBqbraCwZ3rjWr0Ts4"
+            alt="Sidiq Moltafet"
           />
 
           <div>

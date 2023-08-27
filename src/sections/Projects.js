@@ -20,23 +20,21 @@ import Skills from "./Skills";
 export default function Projects() {
   const projectsList = [
     {
-      title: "IntelliTerminal",
+      title: "Spokane police meet with residents in ‘Coffee with a Cop’ at shuttered downtown Starbucks ",
       description:
-        "IntelliTerminal is an extension to Intellitect.com that adds a game for new hires. Please visit console.intellitect.com",
-      image: "terminal.png",
-      link: "https://console.intellitect.com",
+        "Looking to bolster community relationships, Spokane police officers on Wednesday met with members of the public in an event called Coffee with a Cop.        ",
+      image: "Coffee.png",
+      link: "https://www.spokesman.com/stories/2022/jul/13/coffee-with-a-cop/",
       lastUpdated: "2022-10-02",
-      repo: "https://github.com/amoltafet/IntellitectTerminal",
-      languages: ["Python", "C++"],
+      languages: ["Spokesman", "Yahoo News"],
     },
     {
       title: "Oval Real Estate",
       description:
         "Oval is a real estate dashboard that allows users to view and manage their properties. This project was built with React, Node, and MongoDB.",
-      image: "oval.png",
+      image: "People.jpeg",
       link: "https://amoltafet.github.io/Oval/",
       lastUpdated: "2021-10-01",
-      repo: "https://github.com/amoltafet/Oval",
       languages: ["React", "Node", "MongoDB"],
     },
     {
@@ -46,7 +44,6 @@ export default function Projects() {
       image: "investment.png",
       link: "https://amoltafet.github.io/guic/",
       lastUpdated: "2021-10-01",
-      repo: "https://github.com/amoltafet/guic",
       languages: ["React", "Framer Motion"],
     },
     {
@@ -56,7 +53,15 @@ export default function Projects() {
       image: "rock.jpeg",
       link: "https://amoltafet.github.io/RockWater/",
       lastUpdated: "2021-10-01",
-      repo: "https://github.com/amoltafet/RockWater",
+      languages: ["Python", "C++"],
+    },
+    {
+      itle: "Rock Water",
+      description:
+        "My own programming language with the following capabilities: Module System, Lexer, AST Parser, Prettify, Call Expressions.",
+      image: "rock.jpeg",
+      link: "https://amoltafet.github.io/RockWater/",
+      lastUpdated: "2021-10-01",
       languages: ["Python", "C++"],
     },
   ];
@@ -91,7 +96,7 @@ export default function Projects() {
 }
 
 function ProjectCard({ value }) {
-  const { title, description, link, repo, languages, image } = value;
+  const { title, description, link, languages, image } = value;
 
   return (
     <Card variant="outlined">
@@ -104,7 +109,7 @@ function ProjectCard({ value }) {
         {" "}
         {title}{" "}
       </Typography>
-      <Typography variant="subtitle2" gutterBottom sx={{ mt: 0.5, mb: 2 }}>
+      <Typography variant="subtitle2" gutterBottom sx={{ mt: 0.1, mb: 2 }}>
         {description}
       </Typography>
       <Divider />
@@ -112,7 +117,7 @@ function ProjectCard({ value }) {
         variant="soft"
         sx={{
           display: "flex",
-          gap: 1.5,
+          gap: 0.3,
           py: 1.5,
           px: "var(--Card-padding)",
           bgcolor: "background.level1",
@@ -137,12 +142,12 @@ function ProjectCard({ value }) {
           sx={{ ml: "auto" }}
           onClick={() => window.open(link, "_blank")}
         >
-          Demo
+          Full Article
         </Button>
         <IconButton
-          size="sm"
-          color="neutral"
-          onClick={() => window.open(repo, "_blank")}
+          size=""
+          color=""
+          onClick={() => window.open( "_blank")}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -150,9 +155,8 @@ function ProjectCard({ value }) {
             height="16"
             fill="currentColor"
             className="bi bi-github"
-            viewBox="0 0 16 16"
+            viewBox=""
           >
-            <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
           </svg>
         </IconButton>
       </CardOverflow>
@@ -184,8 +188,8 @@ function MainProject() {
           <AspectRatio ratio="4/3">
             <figure>
               <img
-                src="https://consultqd.clevelandclinic.org/wp-content/uploads/sites/2/2016/08/Micorsoft-Hololens-650x450.jpg"
-                srcSet="https://consultqd.clevelandclinic.org/wp-content/uploads/sites/2/2016/08/Micorsoft-Hololens-650x450.jpg"
+                src="https://thumb.spokesman.com/TtIulILq15yMi2zY3X-REDVFaaQ=/2500x0/smart/media.spokesman.com/photos/2022/11/12/62abc29c1eddf.image.jpg"
+                srcSet="https://cdn.vox-cdn.com/thumbor/yJuBQtYK2euiOWE3lj_dtloWkvs=/160x0:1239x607/1600x900/cdn.vox-cdn.com/uploads/chorus_image/image/46708944/manyminions.0.jpg"
                 loading="lazy"
                 alt="Ovicore Technologies"
               />
@@ -227,53 +231,35 @@ function MainProject() {
                       display: "block",
                     }}
                   >
-                    AR Platform for Medical Education
+                Minions: The Rise of Gru (2022)
                   </Link>
                 </Typography>
-                <IconButton size="sm" color="neutral" sx={{ ml: "auto" }}>
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
-                    width="16"
-                    height="16"
+                    width="20"
+                    height="20"
                     fill="currentColor"
                     className="bi bi-github"
                     viewBox="0 0 16 16"
                   >
-                    <path d="M8 0C3.58 0 0 3.58 0 8c0 3.54 2.29 6.53 5.47 7.59.4.07.55-.17.55-.38 0-.19-.01-.82-.01-1.49-2.01.37-2.53-.49-2.69-.94-.09-.23-.48-.94-.82-1.13-.28-.15-.68-.52-.01-.53.63-.01 1.08.58 1.23.82.72 1.21 1.87.87 2.33.66.07-.52.28-.87.51-1.07-1.78-.2-3.64-.89-3.64-3.95 0-.87.31-1.59.82-2.15-.08-.2-.36-1.02.08-2.12 0 0 .67-.21 2.2.82.64-.18 1.32-.27 2-.27.68 0 1.36.09 2 .27 1.53-1.04 2.2-.82 2.2-.82.44 1.1.16 1.92.08 2.12.51.56.82 1.27.82 2.15 0 3.07-1.87 3.75-3.65 3.95.29.25.54.73.54 1.48 0 1.07-.01 1.93-.01 2.2 0 .21.15.46.55.38A8.012 8.012 0 0 0 16 8c0-4.42-3.58-8-8-8z" />
+                    
                   </svg>
-                </IconButton>
                 <IconButton
                   size="sm"
                   color="neutral"
-                  onClick={() => window.open("https://ovicore.com", "_blank")}
+                  onClick={() => window.open("https://www.spokesman.com/stories/2022/jul/08/gentleminions-tiktok-trend-is-taking-over-the-worl/", "_blank")}
                 >
                   <LanguageIcon />
                 </IconButton>
               </Box>
             </Box>
           </CardCover>
-        </Box>
-        <Box sx={{ display: "flex", gap: 1, mt: 1.5, alignItems: "center" }}>
-          <Avatar
-            src="https://media.licdn.com/dms/image/D560BAQFcDRsgYuT8eQ/company-logo_200_200/0/1667338740279?e=2147483647&v=beta&t=chW3QbUnoNOecC1c5dpnB-34DbA9uwqgsXcMnjvCrrM"
-            size="sm"
-            sx={{ "--Avatar-size": "1.5rem" }}
-          />
-          <Typography sx={{ fontSize: "sm", fontWeight: "md" }}>
-            Ovicore Lab
-          </Typography>
-          <Chip
-            variant="outlined"
-            color="neutral"
-            size="sm"
-            sx={{
-              borderRadius: "sm",
-              py: 0.25,
-              px: 0.5,
-            }}
-          >
-            My Passion
-          </Chip>
+        
+             
+          
+          
+            
+      
 
           <Link
             href="#dribbble-shot"
@@ -286,7 +272,7 @@ function MainProject() {
               "&:hover": { color: "primary.plainColor" },
             }}
           >
-            ovicore.com
+            
           </Link>
         </Box>
       </Card>
@@ -296,17 +282,14 @@ function MainProject() {
         }}
       >
         <Typography variant="h3" sx={{ fontSize: "lg", mt: 2 }}>
-          Ovicore Lab | AR Platform for Medical Education
-        </Typography>
+        ‘Gentleminions’ TikTok trend is taking over the world!
+         </Typography>
         <Typography variant="body1" sx={{ fontSize: "lg", mt: 2 }}>
-          Ovicore creates tools that enable the implementation of augmented
-          reality technology in educational environments.
+       
         </Typography>
-        <Typography variant="h5" sx={{ fontSize: "lg", mt: 2 }}>
-          I started working on this project in 2022. I was responsible for the
-          development of the AR platform and the integration of the AR content.
-          My goal was to create a platform that would allow the student to
-          interact with the educational content in a more immersive way.
+        <Typography variant="h5" sx={{ fontSize: "lg", mt: 2 }}> 
+        The scene is unfolding at movie theaters across the country: teens dressed in suits and ties crowding into the latest Minions movie.
+        These gentlemen are part of the “gentleminions” trend on TikTok that has collected 9.1 billion views.
         </Typography>
       </div>
     </div>
