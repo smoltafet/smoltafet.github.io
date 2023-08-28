@@ -3,15 +3,10 @@ import { Typography, Box } from "@mui/material";
 import Chip from "@mui/joy/Chip";
 
 export default function Skills() {
-  const languages = ["Python", "C++", "Java", "JavaScript", "HTML/CSS", "SQL"];
+  const languages = ["The Spokesman-Review", "The Woodinville Weekly", "Prison Journalism Project", "The Chronicle", "KHQ News", "Yahoo News", "SWX Right Now"];
   const frameworks = [
-    "React",
-    "Bootstrap",
-    "Material-UI",
-    "Node.js",
-    "Express.js",
   ];
-  const databases = ["MongoDB", "MySQL"];
+  const databases = [];
 
   return (
     <Box
@@ -24,7 +19,7 @@ export default function Skills() {
       }}
     >
       <Typography variant="h6" color="primary">
-        Skills / Languages:
+        Published Works In:
       </Typography>
       {languages.map((skill, index) => (
         <Chip variant="soft" key={index} sx={{ margin: "2px" }} color="primary">

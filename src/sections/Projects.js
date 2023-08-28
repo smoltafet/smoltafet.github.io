@@ -140,7 +140,7 @@ export default function Projects() {
 
   return (
     <div>
-      <Header title="Projects" />
+      <Header title="Publications" />
       <Grid item xs={12} sm={12} md={12} lg={12} id="skills">
         <Divider />
         <Skills />
