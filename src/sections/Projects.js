@@ -47,13 +47,13 @@ export default function Projects() {
       languages: ["Spokesman", "The Chronicle"],
     },
     {
-      title: "WOODIVILLE STORY GOES HERE ",
+      title: "WOODIVILLE ",
       description:
-        "My own programming language with the following capabilities: Module System, Lexer, AST Parser, Prettify, Call Expressions.",
+        "Woodinvile City Council",
       image: "rock.jpeg",
       link: "https://amoltafet.github.io/RockWater/",
       lastUpdated: "2021-10-01",
-      languages: ["Python", "C++"],
+      languages: ["", ""],
     },
     {
       title: "It’s World Chocolate Day, and Spokane has plenty of choices!",
@@ -110,31 +110,31 @@ export default function Projects() {
       languages: ["Spokesman", "Yahoo News"],
     },
     {
-      itle: "Woodivile",
+      title: "Woodivile",
       description:
-        "My own programming language with the following capabilities: Module System, Lexer, AST Parser, Prettify, Call Expressions.",
+        "",
       image: "rock.jpeg",
       link: "https://amoltafet.github.io/RockWater/",
       lastUpdated: "2021-10-01",
-      languages: ["Python", "C++"],
+      languages: ["", ""],
     },
     {
-      itle: "Woodivile",
+      title: "Woodivile",
       description:
-        "My own programming language with the following capabilities: Module System, Lexer, AST Parser, Prettify, Call Expressions.",
+        "Woodinvile City Council",
       image: "rock.jpeg",
       link: "https://amoltafet.github.io/RockWater/",
       lastUpdated: "2021-10-01",
-      languages: ["Python", "C++"],
+      languages: ["", ""],
     },
     {
-      itle: "Woodivile",
+      title: "Woodivile Publication",
       description:
-        "My own programming language with the following capabilities: Module System, Lexer, AST Parser, Prettify, Call Expressions.",
+        "Woodinvile City Council",
       image: "rock.jpeg",
       link: "https://amoltafet.github.io/RockWater/",
       lastUpdated: "2021-10-01",
-      languages: ["Python", "C++"],
+      languages: ["Woodinvile", "Yahoo"],
     },
   ];
 
