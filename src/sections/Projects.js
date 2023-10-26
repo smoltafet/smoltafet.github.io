@@ -31,7 +31,7 @@ export default function Projects() {
     {
       title: "We the People: British Prime Minister Boris Johnson has officialy resigned!",
       description:
-        "On July 7, British Prime Minister Boris Johnson announced his resignation. His fall came after more than 50 members of Parliament stepped down from their positions.        ",
+        "On July 7, British Prime Minister Boris Johnson announced his resignation. His fall came after more than 50 members of Parliament stepped down from their positions. What does this mean?",
       image: "People.jpeg",
       link: "https://www.spokesman.com/stories/2022/jul/31/we-the-people-a-brief-comparison-of-american-and-b/",
       lastUpdated: "2021-10-01",
@@ -47,18 +47,18 @@ export default function Projects() {
       languages: ["Spokesman", "The Chronicle"],
     },
     {
-      title: "WOODIVILLE ",
+      title: "Washington Policy Center: for hope in the future looks to Spokane",
       description:
-        "Woodinvile City Council",
-      image: "rock.jpeg",
-      link: "https://amoltafet.github.io/RockWater/",
+        "Article written for Sidiq Moltafet after winning the Jennifer Dunn-Thomson Scholarship from the Washington Policy Center.",
+      image: "JDT-LI.jpg",
+      link: "https://www.spokesman.com/stories/2023/oct/18/washington-policy-center-for-hope-in-the-future-lo/",
       lastUpdated: "2021-10-01",
-      languages: ["", ""],
+      languages: ["Newstral", "Spokesman"],
     },
     {
       title: "It’s World Chocolate Day, and Spokane has plenty of choices!",
       description:
-        "Chocolate has spurred cravings across the world. Consider that during the past year, people across the globe ate 7.7 million tons of chocolate. Melted down to the individual, that’s about 2.2 pounds per person. But in the United States, chocolate consumption is more aggressive. ",
+        "Consider that during the past year, people across the globe ate 7.7 million tons of chocolate. Melted down to the individual, that’s about 2.2 pounds per person. But in the United States, chocolate consumption is more aggressive. ",
       image: "day.jpeg",
       link: "https://www.spokesman.com/stories/2022/jul/07/chocolate-lovers-rejoice-its-world-chocolate-day-a/",
       lastUpdated: "2021-10-01",
@@ -109,33 +109,7 @@ export default function Projects() {
       lastUpdated: "2021-10-01",
       languages: ["Spokesman", "Yahoo News"],
     },
-    {
-      title: "Woodivile",
-      description:
-        "",
-      image: "rock.jpeg",
-      link: "https://amoltafet.github.io/RockWater/",
-      lastUpdated: "2021-10-01",
-      languages: ["", ""],
-    },
-    {
-      title: "Woodivile",
-      description:
-        "Woodinvile City Council",
-      image: "rock.jpeg",
-      link: "https://amoltafet.github.io/RockWater/",
-      lastUpdated: "2021-10-01",
-      languages: ["", ""],
-    },
-    {
-      title: "Woodivile Publication",
-      description:
-        "Woodinvile City Council",
-      image: "rock.jpeg",
-      link: "https://amoltafet.github.io/RockWater/",
-      lastUpdated: "2021-10-01",
-      languages: ["Woodinvile", "Yahoo"],
-    },
+
   ];
 
   return (
