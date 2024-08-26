@@ -28,14 +28,14 @@ export default function Education() {
           </Typography>
 
           <Typography variant="h5" color="black">
-            Bellevue College
+	      University of Washington
           </Typography>
 
           <Typography variant="h6" color="black">
-            <b>Associate of Arts in Mass Media & Journalism</b>
+            <b>Bacherlors of Science in Computer Science</b>
           </Typography>
           <Typography variant="overline" color="black">
-            Graduation: June 2024 <br />
+            Graduation: June 2028 <br />
           </Typography>
           </Grid>
       </Grid>
