@@ -19,7 +19,7 @@ export default function Skills() {
       }}
     >
       <Typography variant="h6" color="primary">
-        Published Works In:
+        Published Works:
       </Typography>
       {languages.map((skill, index) => (
         <Chip variant="soft" key={index} sx={{ margin: "2px" }} color="primary">
