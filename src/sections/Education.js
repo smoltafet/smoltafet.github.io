@@ -65,7 +65,6 @@ export default function Education() {
         </Typography>
 
         <Typography variant="h6" color="black">
-          <b>Spokane, Washington</b>
         </Typography>
         <Typography variant="overline" color="black">
            Graduation: June 2024 <br />
